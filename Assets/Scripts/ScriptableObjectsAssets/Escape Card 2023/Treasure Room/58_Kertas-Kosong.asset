@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4887ea061f6e49542958988cfe021d64, type: 3}
+  m_Name: 58_Kertas-Kosong
+  m_EditorClassIdentifier: 
+  cardSprite: {fileID: 21300000, guid: 36d1b30165b73ba4fb2a9c99de6dbbce, type: 3}
+  cardDescription: Kosong? mungkin hanya tidak terlihat
+  cardID: 58
+  cardType: 3
+  combineCardsProducesID:
+  - Z
+  hiddenCardProducesID: 
+  unlockCardAnswer: 
+  unlockCardProducesID: []
+  destroyedCardID:
+  - Q
+  mapIndex: 6
+  haveText: 0
+  text: 

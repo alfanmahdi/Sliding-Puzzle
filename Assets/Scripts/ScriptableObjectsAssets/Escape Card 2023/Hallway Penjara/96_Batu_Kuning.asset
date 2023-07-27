@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4887ea061f6e49542958988cfe021d64, type: 3}
+  m_Name: 96_Batu_Kuning
+  m_EditorClassIdentifier: 
+  cardSprite: {fileID: 21300000, guid: fba5aabfdadeefd468098aed7447b742, type: 3}
+  cardDescription: Tampak seperti dapat dipasangkan kepada sesuatu.
+  cardID: 96
+  cardType: 0
+  combineCardsProducesID:
+  - 114
+  hiddenCardProducesID: 
+  unlockCardAnswer: 
+  unlockCardProducesID: []
+  destroyedCardID:
+  - 43
+  - 53
+  mapIndex: 5
+  haveText: 0
+  text: 

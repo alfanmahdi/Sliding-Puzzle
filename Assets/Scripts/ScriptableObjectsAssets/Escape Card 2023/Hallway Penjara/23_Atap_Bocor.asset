@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4887ea061f6e49542958988cfe021d64, type: 3}
+  m_Name: 23_Atap_Bocor
+  m_EditorClassIdentifier: 
+  cardSprite: {fileID: 21300000, guid: a43d386ea0274c546961f5c8d6eb80e0, type: 3}
+  cardDescription: Tetesan airnya dapat ditampung pada sesuatu.
+  cardID: 23
+  cardType: 0
+  combineCardsProducesID:
+  - 53
+  hiddenCardProducesID: 
+  unlockCardAnswer: 
+  unlockCardProducesID: []
+  destroyedCardID:
+  - 127
+  - 34
+  mapIndex: 5
+  haveText: 0
+  text: 

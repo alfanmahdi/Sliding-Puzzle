@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4887ea061f6e49542958988cfe021d64, type: 3}
+  m_Name: Backyard Door to kitchen
+  m_EditorClassIdentifier: 
+  cardSprite: {fileID: 21300000, guid: 6e6d0e0ccf31605449334ea6d33b9948, type: 3}
+  cardDescription: Kabelnya terhubung dengan sesuatu
+  cardID: 21
+  cardType: 0
+  combineCardsProducesID:
+  - 18
+  - 44
+  - U
+  - 6
+  - 73
+  - B
+  - G
+  - 32
+  hiddenCardProducesID: 
+  unlockCardAnswer: 
+  unlockCardProducesID: []
+  destroyedCardID: []
+  mapIndex: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4887ea061f6e49542958988cfe021d64, type: 3}
+  m_Name: Monster Room
+  m_EditorClassIdentifier: 
+  cardSprite: {fileID: 21300000, guid: 66b877ec73e7b16458cec90a7f2c63a0, type: 3}
+  cardDescription: Tidak Ada
+  cardID: 57
+  cardType: 5
+  combineCardsProducesID:
+  - 0
+  hiddenCardProducesID: 
+  unlockCardAnswer: 
+  unlockCardProducesID: []
+  destroyedCardID:
+  - 38
+  - 19
+  mapIndex: 7

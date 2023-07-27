@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4887ea061f6e49542958988cfe021d64, type: 3}
+  m_Name: 28_Lubang-Gelap
+  m_EditorClassIdentifier: 
+  cardSprite: {fileID: 21300000, guid: c73a24646b405b943a31f82feab83e75, type: 3}
+  cardDescription: Lubang pada dinding yang cukup dalam dan sangat gelap untuk melihat
+    kedalamnya
+  cardID: 28
+  cardType: 0
+  combineCardsProducesID:
+  - 78
+  - L
+  hiddenCardProducesID: 
+  unlockCardAnswer: 
+  unlockCardProducesID: []
+  destroyedCardID: []
+  mapIndex: 0
+  haveText: 0
+  text: 

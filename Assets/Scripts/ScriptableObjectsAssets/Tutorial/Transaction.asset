@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4887ea061f6e49542958988cfe021d64, type: 3}
+  m_Name: Transaction
+  m_EditorClassIdentifier: 
+  cardSprite: {fileID: 21300000, guid: 3871c52e9c3d6cd4a986a476a625e4a3, type: 3}
+  cardDescription: Cocokkan pola yang ditemui pada news serta simbol yang dibutuhkan,
+    berkaitan dengan <color=red>w</color><color=yellow>a</color><color=green>r</color><color=blue>n</color><color=purple>a</color>
+  cardID: Z
+  cardType: 4
+  combineCardsProducesID:
+  - 0
+  hiddenCardProducesID: 
+  unlockCardAnswer: 
+  unlockCardProducesID: []
+  destroyedCardID:
+  - 42
+  - 48
+  mapIndex: 7
+  haveText: 0
+  text: 

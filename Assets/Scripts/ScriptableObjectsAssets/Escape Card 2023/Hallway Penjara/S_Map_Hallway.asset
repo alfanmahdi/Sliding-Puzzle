@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4887ea061f6e49542958988cfe021d64, type: 3}
+  m_Name: S_Map_Hallway
+  m_EditorClassIdentifier: 
+  cardSprite: {fileID: 21300000, guid: eec07036bfed66244bcbeb8ddf454641, type: 3}
+  cardDescription: 
+  cardID: S
+  cardType: 5
+  combineCardsProducesID: []
+  hiddenCardProducesID: 
+  unlockCardAnswer: 
+  unlockCardProducesID: []
+  destroyedCardID:
+  - 127
+  - 34
+  mapIndex: 5
+  haveText: 0
+  text: 

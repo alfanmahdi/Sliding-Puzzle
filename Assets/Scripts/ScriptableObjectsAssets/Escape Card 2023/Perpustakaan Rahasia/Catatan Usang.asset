@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4887ea061f6e49542958988cfe021d64, type: 3}
+  m_Name: Catatan Usang
+  m_EditorClassIdentifier: 
+  cardSprite: {fileID: 21300000, guid: 7bfc3848190a7ef4ab9f599fa866cbba, type: 3}
+  cardDescription: Berhubungan dengan halaman di buku rahasia, apa mereka berbicara
+    tentang jam paling panas?
+  cardID: A
+  cardType: 4
+  combineCardsProducesID: []
+  hiddenCardProducesID: 
+  unlockCardAnswer: 
+  unlockCardProducesID: []
+  destroyedCardID:
+  - R
+  mapIndex: 3
+  haveText: 1
+  text: Di bawah terik matahari Langit biru membentang luas Terlihat si kerdil di
+    belakang si tinggi Bersembunyi dari sinar sang surya

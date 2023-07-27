@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4887ea061f6e49542958988cfe021d64, type: 3}
+  m_Name: 77_Kuburan
+  m_EditorClassIdentifier: 
+  cardSprite: {fileID: 21300000, guid: 9201118637de6e84d98f113eab84ad74, type: 3}
+  cardDescription: Terdapat sesuatu tersembunyi di sini.
+  cardID: 77
+  cardType: 4
+  combineCardsProducesID: []
+  hiddenCardProducesID: K
+  unlockCardAnswer: 
+  unlockCardProducesID: []
+  destroyedCardID:
+  - 55
+  - 22
+  mapIndex: 5
+  haveText: 0
+  text: 

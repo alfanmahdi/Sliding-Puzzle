@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4887ea061f6e49542958988cfe021d64, type: 3}
+  m_Name: Rusty Safebox
+  m_EditorClassIdentifier: 
+  cardSprite: {fileID: 21300000, guid: 27622cfb2788ab24c9b5699e7d0f0a2d, type: 3}
+  cardDescription: Numpad tidak dapat digunakkan karena berkarat
+  cardID: 27
+  cardType: 0
+  combineCardsProducesID:
+  - 42
+  hiddenCardProducesID: 
+  unlockCardAnswer: 
+  unlockCardProducesID:
+  - 
+  destroyedCardID: []
+  mapIndex: 7
+  haveText: 0
+  text: 
