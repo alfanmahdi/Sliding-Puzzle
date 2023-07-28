@@ -1,0 +1,1117 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.17f1 (3e8111cac19d) revision 4096273'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 3977 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker14
+-projectPath
+D:/Alfan/Institut Teknologi Sepuluh Nopember/Schematics/Penugasan 6 Sliding Puzzle Revisi Final
+-logFile
+Logs/AssetImportWorker14.log
+-srvPort
+50201
+Successfully changed project path to: D:/Alfan/Institut Teknologi Sepuluh Nopember/Schematics/Penugasan 6 Sliding Puzzle Revisi Final
+D:/Alfan/Institut Teknologi Sepuluh Nopember/Schematics/Penugasan 6 Sliding Puzzle Revisi Final
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13004] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 3239527328 [EditorId] 3239527328 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O7B92ST) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13004] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 3239527328 [EditorId] 3239527328 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O7B92ST) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 936.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.17f1 (3e8111cac19d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Alfan/Institut Teknologi Sepuluh Nopember/Schematics/Penugasan 6 Sliding Puzzle Revisi Final/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   27.21.14.5167
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.061047 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 349.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.367 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3368ms)
+		BeginReloadAssembly (1083ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1668ms)
+			LoadAssemblies (1062ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (403ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (983ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (349ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (399ms)
+				ProcessInitializeOnLoadMethodAttributes (194ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.342028 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 338.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.827 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9830ms)
+		BeginReloadAssembly (521ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (8612ms)
+			LoadAssemblies (2776ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1591ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (218ms)
+			SetupLoadedEditorAssemblies (3869ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (338ms)
+				BeforeProcessingInitializeOnLoad (326ms)
+				ProcessInitializeOnLoadAttributes (2998ms)
+				ProcessInitializeOnLoadMethodAttributes (161ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.60 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4298 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.3 MB). Loaded Objects now: 4740.
+Memory consumption went from 168.3 MB to 167.0 MB.
+Total: 33.321000 ms (FindLiveObjects: 0.561500 ms CreateObjectMapping: 0.451300 ms MarkObjects: 31.510500 ms  DeleteObjects: 0.795100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34215.786667 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p2.png
+  artifactKey: Guid(e6b326463341d482da50a518bd3c4ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p2.png using Guid(e6b326463341d482da50a518bd3c4ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfbbff61632ec8acdb9ac913b82ff73') in 1.059172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/9-15.jpg
+  artifactKey: Guid(ca0995efc6a5eb148bb443131693e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/9-15.jpg using Guid(ca0995efc6a5eb148bb443131693e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedc992cb102f2c1b291bf198122d652') in 0.362627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/3-1.jpg
+  artifactKey: Guid(1f597a7a2ae3a3d4193d677195088c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/3-1.jpg using Guid(1f597a7a2ae3a3d4193d677195088c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6798ddd06546bc8304fb52714a3739f') in 0.254082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/5-9.jpg
+  artifactKey: Guid(0cf68a61612ce8149a15c766dcbe52a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/5-9.jpg using Guid(0cf68a61612ce8149a15c766dcbe52a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab2887426a7646110fb6ea34ccbe910') in 0.215412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/15-6.jpg
+  artifactKey: Guid(8a83e650876cdbf4e97164b3752a607b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/15-6.jpg using Guid(8a83e650876cdbf4e97164b3752a607b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6121ba49864ca88fcd8e76677f2167ad') in 0.198517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Puzzle Background/tile1.png
+  artifactKey: Guid(ba0f3933fecdd40268c479dd3853d0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Puzzle Background/tile1.png using Guid(ba0f3933fecdd40268c479dd3853d0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc89b4e7059bd4e2526c2445337b0bc') in 0.175259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Puzzle Background
+  artifactKey: Guid(80577a6a7a65041c2b92522207705e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Puzzle Background using Guid(80577a6a7a65041c2b92522207705e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ec5ccfc17b111ac5caece3df79b7e0') in 0.068119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles
+  artifactKey: Guid(c4f8474d363964148be4d1063d261ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles using Guid(c4f8474d363964148be4d1063d261ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d67f5bc6f21aa3e1a582a8a0e9a5b71') in 0.068490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p3.png
+  artifactKey: Guid(b23fbd95894044545934daf72cbc26ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p3.png using Guid(b23fbd95894044545934daf72cbc26ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35ec579e186a2ce94e994401fe480ad') in 0.106905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000916 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p12.png
+  artifactKey: Guid(e812825df7faa4ff7863e804add30bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p12.png using Guid(e812825df7faa4ff7863e804add30bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c3da30b5e9faa52c94bacddeddc306') in 0.125179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p13.png
+  artifactKey: Guid(e5fa4ee10de5f4c2387e46855dc3fa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p13.png using Guid(e5fa4ee10de5f4c2387e46855dc3fa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d8142ca91208c5df7fe49fe52ac19a') in 0.118539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p9.png
+  artifactKey: Guid(c65d05a6ea19b426da085ebbd76a1ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p9.png using Guid(c65d05a6ea19b426da085ebbd76a1ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc08b1b1f05bb4eb2f1f8b420f9fe6e') in 0.144844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p10.png
+  artifactKey: Guid(913e30785c9c84afdb25f7cb2eff27c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p10.png using Guid(913e30785c9c84afdb25f7cb2eff27c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf13e381539bd0571a3425692892058') in 0.125646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/1-12.jpg
+  artifactKey: Guid(e88e65e6de8844f48884a0d90265f845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/1-12.jpg using Guid(e88e65e6de8844f48884a0d90265f845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b891539a16fd64a52ba9c230fb18c500') in 0.187974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/11-10.jpg
+  artifactKey: Guid(5121a5f283f7e0847a559e2cf2623b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/11-10.jpg using Guid(5121a5f283f7e0847a559e2cf2623b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd643f5364839700916eddc5ee0d25d09') in 0.185340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/2-11.jpg
+  artifactKey: Guid(d527930b3ef859749b7e69c0dfe437de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/2-11.jpg using Guid(d527930b3ef859749b7e69c0dfe437de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2aa921d009afdbc5da84c0d664a8b26') in 0.143528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p8.png
+  artifactKey: Guid(14ce5d8307ab7479ca5948c15c4fdfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p8.png using Guid(14ce5d8307ab7479ca5948c15c4fdfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0301f009b580ff26549fefc33a9fbf6') in 0.119569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/6-4.jpg
+  artifactKey: Guid(5f6c8b962261f8b459250e4a22fbb276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/6-4.jpg using Guid(5f6c8b962261f8b459250e4a22fbb276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf95903bd5016a200116a7371dd5f76') in 0.163428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p7.png
+  artifactKey: Guid(8927a7ef8445c44c79a7d64150d81e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p7.png using Guid(8927a7ef8445c44c79a7d64150d81e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87539720614ca56d2fd16d900d890bb2') in 0.116778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/7-2.jpg
+  artifactKey: Guid(fb88b99ad429c9c409e71cec7668cf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/7-2.jpg using Guid(fb88b99ad429c9c409e71cec7668cf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34c19f5357cf5d7522e8f60f8bbf906') in 0.133776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/14-14.jpg
+  artifactKey: Guid(25d41cb7d9bf2cb4c8756f02d72dd42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/14-14.jpg using Guid(25d41cb7d9bf2cb4c8756f02d72dd42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc5ed72720f72c6547bcf6a10b24d65') in 0.182734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/4-13.jpg
+  artifactKey: Guid(aeac2cee5405bc0428091ffe52225304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/4-13.jpg using Guid(aeac2cee5405bc0428091ffe52225304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb84dfb1faaa27f9bf341d7af6caf3f') in 0.081137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/10-8.jpg
+  artifactKey: Guid(663ee3acac2ce504f9d79d128134cbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/10-8.jpg using Guid(663ee3acac2ce504f9d79d128134cbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2ad9bf7849be720702f09b003ca507') in 0.180183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Background.png
+  artifactKey: Guid(c2130ee580d02f344bd62f02ba114379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Background.png using Guid(c2130ee580d02f344bd62f02ba114379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa8eb02651c928acfe0bd07482a92fb') in 0.597577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway
+  artifactKey: Guid(5c75d2ca2f3c2f147aca3f8ec3af0046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway using Guid(5c75d2ca2f3c2f147aca3f8ec3af0046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72c6cbaf78e2e332aae19498620f294') in 0.046710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/12-5.jpg
+  artifactKey: Guid(181fb5f936eb06148be785cd6a364f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/12-5.jpg using Guid(181fb5f936eb06148be785cd6a364f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da3879ff3b935221123682533b1261f') in 0.185390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p11.png
+  artifactKey: Guid(d7dfe495ca5994bbfad76f0335587ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p11.png using Guid(d7dfe495ca5994bbfad76f0335587ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb9a378a7e9e9ffe82346cba542b684') in 0.147992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Puzzle Background/tile2.png
+  artifactKey: Guid(cd31fd626c65548e4b1a539beeab7b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Puzzle Background/tile2.png using Guid(cd31fd626c65548e4b1a539beeab7b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99fe6ab6607c4880f5e06d9c1a60f3d') in 0.136737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p5.png
+  artifactKey: Guid(4db1a36201c434d84b313a92f9ab3ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p5.png using Guid(4db1a36201c434d84b313a92f9ab3ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b032c815a91ef5fd35897a0a7e3908c8') in 0.156153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042119 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p15.png
+  artifactKey: Guid(fb8b139a3debc4d04a123ea222f1c857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p15.png using Guid(fb8b139a3debc4d04a123ea222f1c857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065e3da3c9f16153f5e2714442cf08ca') in 0.117721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p4.png
+  artifactKey: Guid(86341592241724e2da45cea9c762cd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p4.png using Guid(86341592241724e2da45cea9c762cd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a5f6c2265337a19c47fc2bcc8a4d38') in 0.152195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p1.png
+  artifactKey: Guid(01c3de85319624ac28a47aa6ffce727b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p1.png using Guid(01c3de85319624ac28a47aa6ffce727b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549c998f2ee7d69985d839d9c38001ba') in 0.213526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p6.png
+  artifactKey: Guid(a0bf392e3e7bc46a5a3e772a975fb264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p6.png using Guid(a0bf392e3e7bc46a5a3e772a975fb264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e645381582ab6bc4a6f99a42080f46c') in 0.151782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Puzzle.png
+  artifactKey: Guid(fac1880f73099924a89682dae275f73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Puzzle.png using Guid(fac1880f73099924a89682dae275f73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df437cb95e3b6cd09fc2fe8b52cd7130') in 0.767457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p14.png
+  artifactKey: Guid(8723dac8c3b6040cfa12319c546f2927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/p14.png using Guid(8723dac8c3b6040cfa12319c546f2927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9135258245a8954f64c64d65fdf31a') in 0.169271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/13-3.jpg
+  artifactKey: Guid(1bbd88f53b99bee449932b48a47b7ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/13-3.jpg using Guid(1bbd88f53b99bee449932b48a47b7ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfdca5a5354377dedb457e10ff51424') in 0.182275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/8-7.jpg
+  artifactKey: Guid(9a2397c3e7c68304dbcc996b993ef172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Tiles/8-7.jpg using Guid(9a2397c3e7c68304dbcc996b993ef172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb77cb36d635495af2232eeb9c536106') in 0.136103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.743105 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile
+  artifactKey: Guid(c6f410432b06b5447ac1cf3755f6c151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile using Guid(c6f410432b06b5447ac1cf3755f6c151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b88741b868cf3aac009a39959de9b54') in 0.047385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.743447 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/tile1.png
+  artifactKey: Guid(5709d6935be6141419f76ccfec662933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/tile1.png using Guid(5709d6935be6141419f76ccfec662933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784df93146ac85ce5dd9d35a08662214') in 0.084991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2080.217227 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/1.png
+  artifactKey: Guid(b7109f758257f5549bf6ab91fe8aa84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/1.png using Guid(b7109f758257f5549bf6ab91fe8aa84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca8bdf985655e0203cb1bd680d23de2') in 0.894170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/15.png
+  artifactKey: Guid(a90657ca615e03e4280c561651ddfa20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/15.png using Guid(a90657ca615e03e4280c561651ddfa20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ddbf3019d3f9c2e0038af8a927a12da') in 0.292616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/12.png
+  artifactKey: Guid(bb540f755f6d128438d22c1cfb4f09bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/12.png using Guid(bb540f755f6d128438d22c1cfb4f09bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a215c102f91b489644d801bef5290d') in 0.451112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/3.png
+  artifactKey: Guid(bb7df42db4c1dd145a615072c4c6d1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/3.png using Guid(bb7df42db4c1dd145a615072c4c6d1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe6ed72b60329ae0fd7e49cb95f504e') in 0.307755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/10.png
+  artifactKey: Guid(3c84ca6771f7b5a4c954ea76f21d8e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/10.png using Guid(3c84ca6771f7b5a4c954ea76f21d8e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fe5a1d9bf5abe4e11690d5318fda81') in 0.269162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/9.png
+  artifactKey: Guid(1c2b5e2aa4d24144c97b492a08b88f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/9.png using Guid(1c2b5e2aa4d24144c97b492a08b88f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe7671713131fca866950a5e1591d6d') in 0.456652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/4.png
+  artifactKey: Guid(f645a67253ae7c6459fa3d81d1ad7587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/4.png using Guid(f645a67253ae7c6459fa3d81d1ad7587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd470629dd6914ee3e7f8a1a05d3c11f8') in 0.421042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/14.png
+  artifactKey: Guid(9626a41e161e2924093dccf6556bf788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/14.png using Guid(9626a41e161e2924093dccf6556bf788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e5b84efc73e656f2b277491ffbd015') in 0.284171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/2.png
+  artifactKey: Guid(81fad575d482fc243bba4e02236782bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/2.png using Guid(81fad575d482fc243bba4e02236782bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a1792b4d916ac0d63876dc3096cc22') in 0.438802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/8.png
+  artifactKey: Guid(c0286850a278e23498a25e73480158a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/8.png using Guid(c0286850a278e23498a25e73480158a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72eacad172480cc7f448ee5f3db90461') in 0.380243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/5.png
+  artifactKey: Guid(b5341e4500b3426468f806fe7414fd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/5.png using Guid(b5341e4500b3426468f806fe7414fd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d43a282525ea16db700299a0744537c') in 0.261102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/6.png
+  artifactKey: Guid(e3b3f3f1ffbc8d241a3d547819e9f1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/6.png using Guid(e3b3f3f1ffbc8d241a3d547819e9f1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8112cf55acfc4030191e610cf1d2e850') in 0.390087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/13.png
+  artifactKey: Guid(44110d16de5a93645b690f5a7a113024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/13.png using Guid(44110d16de5a93645b690f5a7a113024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50249be4cb6520968e5ce310d9cc4f74') in 0.363019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/7.png
+  artifactKey: Guid(ae4eae704c38c9547abf1d834440d532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/7.png using Guid(ae4eae704c38c9547abf1d834440d532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11d5b3375e264d6d3cf4a4fe7c674aa') in 0.360126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/11.png
+  artifactKey: Guid(1409780a05dd978499086a66027a28ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Machine/Escape Card 2023/Hallway/Num Tile/11.png using Guid(1409780a05dd978499086a66027a28ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a27659c9116801f30624fb4acf57b3') in 0.466921 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.047233 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.948 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7959ms)
+		BeginReloadAssembly (2958ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (347ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (1244ms)
+		EndReloadAssembly (4434ms)
+			LoadAssemblies (3198ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (899ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (147ms)
+			SetupLoadedEditorAssemblies (843ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (558ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 52.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.2 MB). Loaded Objects now: 4785.
+Memory consumption went from 167.4 MB to 166.1 MB.
+Total: 46.143300 ms (FindLiveObjects: 3.273300 ms CreateObjectMapping: 0.868700 ms MarkObjects: 41.059600 ms  DeleteObjects: 0.938200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006845 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4445ms)
+		BeginReloadAssembly (639ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (152ms)
+		EndReloadAssembly (3364ms)
+			LoadAssemblies (512ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1205ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (1570ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (59ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (320ms)
+				ProcessInitializeOnLoadAttributes (1063ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 63.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.2 MB). Loaded Objects now: 4788.
+Memory consumption went from 167.4 MB to 166.1 MB.
+Total: 19.466000 ms (FindLiveObjects: 1.053900 ms CreateObjectMapping: 0.883400 ms MarkObjects: 16.826500 ms  DeleteObjects: 0.698100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.076907 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.273 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3276ms)
+		BeginReloadAssembly (916ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (63ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (2010ms)
+			LoadAssemblies (760ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (620ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (123ms)
+			SetupLoadedEditorAssemblies (904ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (205ms)
+				ProcessInitializeOnLoadAttributes (546ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.2 MB). Loaded Objects now: 4791.
+Memory consumption went from 167.4 MB to 166.1 MB.
+Total: 9.880300 ms (FindLiveObjects: 0.576500 ms CreateObjectMapping: 0.565500 ms MarkObjects: 8.389000 ms  DeleteObjects: 0.347300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009804 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.382 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4391ms)
+		BeginReloadAssembly (459ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (139ms)
+		EndReloadAssembly (3636ms)
+			LoadAssemblies (343ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (920ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (300ms)
+			SetupLoadedEditorAssemblies (1002ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (672ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.2 MB). Loaded Objects now: 4794.
+Memory consumption went from 167.4 MB to 166.1 MB.
+Total: 20.335200 ms (FindLiveObjects: 3.515700 ms CreateObjectMapping: 2.726500 ms MarkObjects: 13.750100 ms  DeleteObjects: 0.341000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023504 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.646 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4649ms)
+		BeginReloadAssembly (573ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (3575ms)
+			LoadAssemblies (462ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (968ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (295ms)
+			SetupLoadedEditorAssemblies (1797ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (312ms)
+				ProcessInitializeOnLoadAttributes (1182ms)
+				ProcessInitializeOnLoadMethodAttributes (199ms)
+				AfterProcessingInitializeOnLoad (44ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (53ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.2 MB). Loaded Objects now: 4797.
+Memory consumption went from 167.4 MB to 166.1 MB.
+Total: 8.844700 ms (FindLiveObjects: 1.085100 ms CreateObjectMapping: 0.717800 ms MarkObjects: 6.075500 ms  DeleteObjects: 0.963500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.191848 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 36.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 66.549 seconds
+Domain Reload Profiling:
+	ReloadAssembly (66589ms)
+		BeginReloadAssembly (26081ms)
+			ExecutionOrderSort (5ms)
+			DisableScriptedObjects (1125ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (117ms)
+			CreateAndSetChildDomain (15216ms)
+		EndReloadAssembly (36403ms)
+			LoadAssemblies (5651ms)
+			RebuildTransferFunctionScriptingTraits (3ms)
+			SetupTypeCache (12591ms)
+			ReleaseScriptCaches (81ms)
+			RebuildScriptCaches (6766ms)
+			SetupLoadedEditorAssemblies (8572ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (263ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (2209ms)
+				ProcessInitializeOnLoadAttributes (4921ms)
+				ProcessInitializeOnLoadMethodAttributes (1006ms)
+				AfterProcessingInitializeOnLoad (125ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (128ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 118.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.2 MB). Loaded Objects now: 4800.
+Memory consumption went from 167.5 MB to 166.2 MB.
+Total: 710.454300 ms (FindLiveObjects: 8.562500 ms CreateObjectMapping: 12.465500 ms MarkObjects: 685.692700 ms  DeleteObjects: 3.723700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.091996 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 18.831 seconds
+Domain Reload Profiling:
+	ReloadAssembly (18835ms)
+		BeginReloadAssembly (6267ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (91ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (472ms)
+		EndReloadAssembly (10542ms)
+			LoadAssemblies (7942ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3992ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (3169ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (965ms)
+				ProcessInitializeOnLoadAttributes (1961ms)
+				ProcessInitializeOnLoadMethodAttributes (203ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 59.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.2 MB). Loaded Objects now: 4803.
+Memory consumption went from 167.5 MB to 166.2 MB.
+Total: 65.658300 ms (FindLiveObjects: 3.148500 ms CreateObjectMapping: 1.748900 ms MarkObjects: 59.643400 ms  DeleteObjects: 1.115100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.277739 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.054 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4055ms)
+		BeginReloadAssembly (708ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (3143ms)
+			LoadAssemblies (2526ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (458ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (474ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.2 MB). Loaded Objects now: 4806.
+Memory consumption went from 167.5 MB to 166.3 MB.
+Total: 6.989900 ms (FindLiveObjects: 0.543400 ms CreateObjectMapping: 0.703800 ms MarkObjects: 5.056300 ms  DeleteObjects: 0.685000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008115 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.312 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6313ms)
+		BeginReloadAssembly (1498ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (152ms)
+		EndReloadAssembly (4543ms)
+			LoadAssemblies (3484ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (701ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (1372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (988ms)
+				ProcessInitializeOnLoadMethodAttributes (196ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 72.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.2 MB). Loaded Objects now: 4809.
+Memory consumption went from 167.5 MB to 166.3 MB.
+Total: 4.888200 ms (FindLiveObjects: 0.452700 ms CreateObjectMapping: 0.425800 ms MarkObjects: 3.752600 ms  DeleteObjects: 0.255300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007382 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.821 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1823ms)
+		BeginReloadAssembly (284ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (1369ms)
+			LoadAssemblies (222ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (437ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (588ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (359ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.2 MB). Loaded Objects now: 4812.
+Memory consumption went from 167.5 MB to 166.3 MB.
+Total: 11.308900 ms (FindLiveObjects: 1.070300 ms CreateObjectMapping: 0.754100 ms MarkObjects: 8.083100 ms  DeleteObjects: 1.399400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010514 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Alfan\Institut Teknologi Sepuluh Nopember\Schematics\Penugasan 6 Sliding Puzzle Revisi Final\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.810 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1811ms)
+		BeginReloadAssembly (244ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1377ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (487ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (573ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.2 MB). Loaded Objects now: 4815.
+Memory consumption went from 167.5 MB to 166.3 MB.
+Total: 10.229600 ms (FindLiveObjects: 0.350100 ms CreateObjectMapping: 0.250700 ms MarkObjects: 9.115600 ms  DeleteObjects: 0.511000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

@@ -6,29 +6,93 @@ public class PuzzleManager : MonoBehaviour
 {
     public GridLayoutGroup gridLayoutGroup;
     public GameObject[] tiles;
+    public TMPro.TextMeshProUGUI serialNumberText;
 
-    private int[,] start = new int[,] { { 0,  1,  2,  3 }, 
-                                        { 4,  5,  6,  7 }, 
-                                        { 8,  9,  10, 11 },
-                                        { 12, 13, 14, 15 } };
-    private int[,] curr = new int[,] { { 0,  1,  2,  3 }, 
-                                       { 4,  5,  6,  7 }, 
-                                       { 8,  9,  10, 11 },
-                                       { 12, 13, 14, 15 } };
-    private int[,] goal = new int[,] { { 2,  6,  12, 5 }, 
-                                       { 11, 14, 7,  9 }, 
-                                       { 4,  10, 1,  0 },
-                                       { 3,  13, 8,  15 } };
+    private int[,] start1 = new int[,] { { 8,  2,  12,  9 }, 
+                                        { 10,  6,  7,  0 }, 
+                                        { 13,  1,  14, 5 },
+                                        { 4,  3, 11, 15 } };
+
+    private int[,] curr1 = new int[,] { { 8,  2,  12,  9 }, 
+                                        { 10,  6,  7,  0 }, 
+                                        { 13,  1,  14, 5 },
+                                        { 4,  3, 11, 15 } };
+
+    private int[,] goal1 = new int[,] { { 5,  12,  9, 14 }, 
+                                       { 8, 10, 0,  11 }, 
+                                       { 6,  13, 7,  3 },
+                                       { 1,  2, 4,  15 } };
+
+    private int[,] start2 = new int[,] { { 5,  13,  12,  2 }, 
+                                        { 3,  9,  10,  14 }, 
+                                        { 4,  7,   0,  1 },
+                                        { 11, 6, 8, 15 } };
+
+    private int[,] curr2 = new int[,] { { 5,  13,  12,  2 }, 
+                                        { 3,  9,  10,  14 }, 
+                                        { 4,  7,   0,  1 },
+                                        { 11, 6, 8, 15 } };
+
+    private int[,] goal2 = new int[,] { { 3,  10,  12, 14 }, 
+                                       { 13, 0, 9,  1 }, 
+                                       { 7,  4, 6,  8 },
+                                       { 2,  11, 5,  15 } };
+
     private Vector3[] initialPositions;
     private int emptyTileIndex = 15;
+    private int[,] activeStart;
+    private int[,] curr = new int[4, 4];
+    private int[,] activeGoal;
 
     private void Start() {
+        // Generate serial number acak
+        string generatedSerialNumber = GenerateRandomSerialNumber();
+
+        // Tampilkan serial number di UI Text
+        serialNumberText.text = "Serial Number: " + generatedSerialNumber;
+
+        // Gunakan bagian terakhir dari hasil acakan sebagai pemilihan goal dan start
+        int lastDigit = int.Parse(generatedSerialNumber[generatedSerialNumber.Length - 1].ToString());
+
+        if (lastDigit % 2 == 1)
+        {
+            activeGoal = goal1;
+            activeStart = start1;
+        }
+        else
+        {
+            activeGoal = goal2;
+            activeStart = start2;
+        }
+
+        // Inisialisasi keadaan awal curr berdasarkan start yang aktif
+        for (int i = 0; i < activeGoal.GetLength(0); i++)
+        {
+            for (int j = 0; j < activeGoal.GetLength(1); j++)
+            {
+                curr[i, j] = activeStart[i, j];
+            }
+        }
+
         initialPositions = new Vector3[tiles.Length];
         for (int i = 0; i < tiles.Length; i++){
             RectTransform tileRectTransform = tiles[i].GetComponent<RectTransform>();
             initialPositions[i] = tileRectTransform.anchoredPosition;
         }
+    }
 
+    private string GenerateRandomSerialNumber()
+    {
+        const string chars = "0123456789";
+        char[] serialNumberArray = new char[6];
+        System.Random random = new System.Random();
+
+        for (int i = 0; i < serialNumberArray.Length; i++)
+        {
+            serialNumberArray[i] = chars[random.Next(chars.Length)];
+        }
+
+        return new string(serialNumberArray);
     }
 
     private int GetTilePosition(int tileIndex){
@@ -83,10 +147,14 @@ public class PuzzleManager : MonoBehaviour
         return isAdjacentRow || isAdjacentColumn;
     }
 
-    private bool IsCorrect(){
-        for (int i = 0; i < 4; i++){
-            for (int j = 0; j < 4; j++){
-                if (curr[i, j] != goal[i, j]) return false;
+    private bool CheckGoal()
+    {
+        for (int i = 0; i < 4; i++)
+        {
+            for (int j = 0; j < 4; j++)
+            {
+                if (curr[i, j] != activeGoal[i, j])
+                    return false;
             }
         }
         return true;
@@ -94,7 +162,7 @@ public class PuzzleManager : MonoBehaviour
 
     public void Submit(){
 
-        if(IsCorrect()) {
+        if(CheckGoal()) {
             Debug.Log("BENER");
         } else {
             Debug.Log("SALAH");
@@ -153,10 +221,16 @@ public class PuzzleManager : MonoBehaviour
     public void Reset(){
         // GameManager.Instance.audioManager.GetComponent<SoundManager>().switchMachineSoundPlay();
 
-        for (int i = 0; i < goal.GetLength(0); i++){
-            for (int j = 0; j < goal.GetLength(1); j++){
-                curr[i, j] = start[i, j];
+        // Reset keadaan curr berdasarkan start yang aktif
+        for (int i = 0; i < activeGoal.GetLength(0); i++) {
+            for (int j = 0; j < activeGoal.GetLength(1); j++) {
+                curr[i, j] = activeStart[i, j];
             }
+        }
+
+        // Reset posisi tile ke posisi awal
+        for (int i = 0; i < tiles.Length; i++) {
+            tiles[i].transform.position = initialPositions[i];
         }
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
